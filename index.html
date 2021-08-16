@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <title>Kubernetes Web TUI</title>
+</head>
+
+<body>
+    <div id="particles-js">
+        <img id="docker-img" src="index1.png" alt="docker image">
+        <div id="div1">
+
+		 <label id="label" for="Speech Recognition">[k8s@localhost ~] $</label>
+                 <input type="text" name="" id="input"  placeholder="Enter your desired state" onclick=record()>
+		
+		<button id="button" onclick="backend()">Enter</button>
+        </div>
+        <div id="div2">
+		<p id="p"><u>OUTPUT</u></p>
+            <pre>
+                <div id="div3"></div>
+            </pre>
+        </div>
+    </div>
+    
+</body>
+
+</html>
